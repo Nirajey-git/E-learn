@@ -1,0 +1,86 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Science",
+    "slug": "science"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Nepali",
+    "slug": "nepali"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Computer",
+    "slug": "computer"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Social",
+    "slug": "social"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Maths",
+    "slug": "maths"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 7,
+  "fields": {
+    "title": "English",
+    "slug": "english"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "subject": 7,
+    "title": "The loving Mother",
+    "slug": "the-loving-mother",
+    "overview": "Awesome!!",
+    "created": "2021-07-24T05:01:31.374Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 3,
+    "subject": 5,
+    "title": "Map of Nepal",
+    "slug": "map-of-nepal",
+    "overview": "Nepal",
+    "created": "2021-07-24T05:05:18.744Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 4,
+    "subject": 1,
+    "title": "Gravitational FOrce",
+    "slug": "gravitational-force",
+    "overview": "Gravity",
+    "created": "2021-07-24T05:06:03.506Z"
+  }
+}
+]
